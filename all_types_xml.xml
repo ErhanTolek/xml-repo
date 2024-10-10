@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:c="http://base.google.com/ns/1.0" version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+    <channel>
+        <item>
+            <id>1cc378436281419cbff29632d2e1b81a</id>
+            <title>Excellent for daily use</title>
+            <description>Excellent for daily use</description>
+            <price>1560.99 USD</price>
+            <image_link>https://www.example.com/product/image/840532229.png</image_link>
+            <link>https://www.example.com/product116448173</link>
+            <sale_price>2295 USD</sale_price>
+            <availability>in stock</availability>
+            <string_1>Category</string_1>
+            <int_2>10</int_2>
+            <bool_3>true</bool_3>
+            <date_4>2013-09-15T15:53:00Z</date_4>
+            <float_10>10.2</float_10>
+            <array_of_string>Category 1,Category 2, Category 3</c_array_of_string>
+            <array_of_int>1,2,3</c_array_of_int>
+            <array_of_float>1.1,2.2,3.3</c_array_of_float>
+            <array_of_date>2013-09-15T15:53:00Z,2013-09-15T15:53:00Z,2013-09-15T15:53:00Z</c_array_of_date>
+        </item>
+    </channel>
+</rss>

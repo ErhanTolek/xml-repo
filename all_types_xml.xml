@@ -16,9 +16,9 @@
             <date_4>2013-09-15T15:53:00Z</date_4>
             <float_10>10.2</float_10>
             <array_of_string>Category 1,Category 2, Category 3</array_of_string>
-            <array_of_int>1,2,3</array_of_int>
-            <array_of_float>1.1,2.2,3.3</array_of_float>
-            <array_of_date>2013-09-15T15:53:00Z,2013-09-15T15:53:00Z,2013-09-15T15:53:00Z</array_of_date>
+            <array_of_int>1, 2, 3</array_of_int>
+            <array_of_float>1.1, 2.2, 3.3</array_of_float>
+            <array_of_date>2013-09-15T15:53:00Z, 2013-09-15T15:53:00Z, 2013-09-15T15:53:00Z</array_of_date>
         </item>
     </channel>
 </rss>

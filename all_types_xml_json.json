@@ -1,0 +1,150 @@
+{
+    "name": "QA_Test_3",
+    "template_id": 2,
+    "headers": [],
+    "is_stock_out_active": 1,
+    "stock_out_threshold": 100,
+    "interval_minutes": 3,
+    "item_tag": "item",
+    "locale": "bb_AB",
+    "mappings": [
+        {
+            "attribute_type": "CUSTOM",
+            "expression_type": "FIELD",
+            "field_expression": "string_1",
+            "field_name": "string_1",
+            "field_type": "STRING",
+            "simple_field_expression": "string_1"
+        },
+        {
+            "attribute_type": "CUSTOM",
+            "expression_type": "FIELD",
+            "field_expression": "int_2",
+            "field_name": "int_2",
+            "field_type": "INTEGER",
+            "simple_field_expression": "int_2"
+        },
+        {
+            "attribute_type": "CUSTOM",
+            "expression_type": "FIELD",
+            "field_expression": "bool_3",
+            "field_name": "bool_3",
+            "field_type": "BOOLEAN",
+            "simple_field_expression": "bool_3"
+        },
+        {
+            "attribute_type": "CUSTOM",
+            "expression_type": "FIELD",
+            "field_expression": "date_4",
+            "field_name": "date_4",
+            "field_type": "DATE",
+            "simple_field_expression": "date_4"
+        },
+        {
+            "attribute_type": "CUSTOM",
+            "expression_type": "FIELD",
+            "field_expression": "float_10",
+            "field_name": "float_10",
+            "field_type": "FLOAT",
+            "simple_field_expression": "float_10"
+        },
+        {
+            "attribute_type": "CUSTOM",
+            "expression_type": "FIELD",
+            "field_expression": "array_of_string",
+            "field_name": "5_array_of_string",
+            "field_type": "STRINGS",
+            "simple_field_expression": "array_of_string"
+        },
+        {
+            "attribute_type": "CUSTOM",
+            "expression_type": "FIELD",
+            "field_expression": "array_of_int",
+            "field_name": "6_array_of_int",
+            "field_type": "NUMBERS",
+            "simple_field_expression": "array_of_int"
+        },
+        {
+            "attribute_type": "CUSTOM",
+            "expression_type": "FIELD",
+            "field_expression": "array_of_float",
+            "field_name": "9_array_of_float",
+            "field_type": "NUMBERS",
+            "simple_field_expression": "array_of_float"
+        },
+        {
+            "attribute_type": "CUSTOM",
+            "expression_type": "FIELD",
+            "field_expression": "array_of_date",
+            "field_name": "8_array_of_date",
+            "field_type": "DATES",
+            "simple_field_expression": "array_of_date"
+        },
+        {
+            "attribute_type": "DEFAULT",
+            "expression_type": "FIELD",
+            "field_expression": "image_link",
+            "field_name": "image_url",
+            "field_type": "STRING",
+            "simple_field_expression": "image_link"
+        },
+        {
+            "attribute_type": "DEFAULT",
+            "expression_type": "JS",
+            "field_expression": "obj => obj[\"availability\"] == \"in stock\" ? 1: 0",
+            "field_name": "in_stock",
+            "field_type": "INTEGER",
+            "simple_field_expression": "availability"
+        },
+        {
+            "attribute_type": "DEFAULT",
+            "expression_type": "FIELD",
+            "field_expression": "id",
+            "field_name": "item_id",
+            "field_type": "STRING",
+            "simple_field_expression": "id"
+        },
+        {
+            "attribute_type": "DEFAULT",
+            "expression_type": "FIELD",
+            "field_expression": "title",
+            "field_name": "name",
+            "field_type": "STRING",
+            "simple_field_expression": "title"
+        },
+        {
+            "attribute_type": "DEFAULT",
+            "expression_type": "JS",
+            "field_expression": "obj => String(obj[\"sale_price\"]).split(\" \")[0]",
+            "field_name": "price",
+            "field_type": "FLOAT",
+            "simple_field_expression": "sale_price"
+        },
+        {
+            "attribute_type": "DEFAULT",
+            "expression_type": "FIELD",
+            "field_expression": "link",
+            "field_name": "url",
+            "field_type": "STRING",
+            "simple_field_expression": "link"
+        },
+        {
+            "attribute_type": "DEFAULT",
+            "expression_type": "JS",
+            "field_expression": "obj => String(obj[\"price\"]).split(\" \")[0]",
+            "field_name": "original_price",
+            "field_type": "FLOAT",
+            "simple_field_expression": "price"
+        },
+        {
+            "attribute_type": "DEFAULT",
+            "expression_type": "JS",
+            "field_expression": "obj => String(obj[\"sale_price\"]).split(\" \").length > 1 ? String(obj[\"sale_price\"]).split(\" \")[1] : String(obj[\"price\"]).split(\" \")[1]",
+            "field_name": "currency",
+            "field_type": "STRING",
+            "simple_field_expression": "currrency"
+        }
+    ],
+    "partner_id": 10008224,
+    "url": "https://raw.githubusercontent.com/ErhanTolek/xml-repo/refs/heads/main/all_types_xml.xml"
+}
